@@ -1,0 +1,26 @@
+.logo-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding-top: 135px;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+	border-radius: 500px;
+	animation-name: rotate;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(-360deg);
+	}
+}

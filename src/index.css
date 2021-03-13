@@ -1,26 +1,6 @@
-button {
-  cursor: pointer;
-}
-
-.number {
-  margin: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-span {
-  width: 130px;
-  text-align: center;
-  font-size: 26px;
-  border: 1px solid #333;
-  border-radius: 4px;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 10px;
-  padding-bottom: 3px;
-}
-
-p {
-  text-align: center;
+* {
+	font-family: "Sora", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
