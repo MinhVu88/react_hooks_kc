@@ -6,18 +6,17 @@ const Navbar = () => {
 		<>
 			<Nav>
 				<NavLink to="/">
-					<h1 style={{ marginBottom: "25px", color: "#1cc52b" }}>React Hooks</h1>
+					<h1 style={{ color: "#1cc52b" }}>React Hooks</h1>
 				</NavLink>
 				<Bars />
 				<NavMenu>
-					<NavLink to="/useState">UseState</NavLink>
-					<NavLink to="/useEffect0">UseEffect_0</NavLink>
-					<NavLink to="/useEffect1">UseEffect_1</NavLink>
-					<NavLink to="/useCallback">UseCallback</NavLink>
-					<NavLink to="/useContext">UseContext</NavLink>
-					<NavLink to="/useMemo">UseMemo</NavLink>
-					<NavLink to="/useReducer">UseReducer</NavLink>
-					<NavLink to="/useRef">UseRef</NavLink>
+					<NavLink to="/useState">useState</NavLink>
+					<NavLink to="/useEffect">useEffect</NavLink>
+					<NavLink to="/useCallback">useCallback</NavLink>
+					<NavLink to="/useContext">useContext</NavLink>
+					<NavLink to="/useMemo">useMemo</NavLink>
+					<NavLink to="/useReducer">useReducer</NavLink>
+					<NavLink to="/useRef">useRef</NavLink>
 					<NavLink to="/custom">Custom Hooks</NavLink>
 				</NavMenu>
 			</Nav>

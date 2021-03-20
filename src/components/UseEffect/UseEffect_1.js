@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 
-export default function UseEffect1() {
+const UseEffect1 = () => {
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
 	function handleResize() {
@@ -20,12 +20,11 @@ export default function UseEffect1() {
 
 	return (
 		<>
-			<h1>[ useEffect ]</h1>
-			<div className="container">
-				<h3 style={{ textAlign: "center", marginTop: "50px" }}>
-					Version #2 | {windowWidth} (window/browser inner width)
-				</h3>
+			<div className="useeffect-container">
+				<h3 className="effect1-h3">Version #2 | {windowWidth} (window/browser inner width)</h3>
 			</div>
 		</>
 	);
-}
+};
+
+export default UseEffect1;

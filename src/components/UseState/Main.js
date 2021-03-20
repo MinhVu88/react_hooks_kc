@@ -8,7 +8,7 @@ function showNote() {
 	return note;
 }
 
-export default function UseState() {
+const UseState = () => {
 	const [count, setCount] = useState(10),
 		[note_0, setNote_0] = useState(() => {
 			const note =
@@ -59,7 +59,7 @@ export default function UseState() {
 
 	return (
 		<div className="state-container">
-			<h1>[ useState ]</h1>
+			<h1 className="state-h1">[ useState ]</h1>
 			<div className="number">
 				<button className="state-btn" onClick={subtract_0}>
 					<strong>-</strong>
@@ -83,4 +83,6 @@ export default function UseState() {
 			</div>
 		</div>
 	);
-}
+};
+
+export default UseState;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css";
 
-export default function UseEffect0() {
+const UseEffect0 = () => {
 	const [resource, setResource] = useState("users"),
 		[items, setItems] = useState([]);
 
@@ -28,8 +28,8 @@ export default function UseEffect0() {
 
 	return (
 		<>
-			<h1>[ useEffect ]</h1>
-			<h3>Version #1 | {resource} (resource type from jsonplaceholder)</h3>
+			<h1 className="effect0-h1">[ useEffect ]</h1>
+			<h3 className="effect0-h3">Version #1 | {resource} (resource type from jsonplaceholder)</h3>
 			<div className="useeffect-container">
 				<button className="effect-btn" onClick={() => setResource("posts")}>
 					Posts
@@ -42,8 +42,14 @@ export default function UseEffect0() {
 				</button>
 			</div>
 			{items.map(item => {
-				return <pre key={item.id}>{JSON.stringify(item)}</pre>;
+				return (
+					<ul key={item.id}>
+						<li>{JSON.stringify(item)}</li>
+					</ul>
+				);
 			})}
 		</>
 	);
-}
+};
+
+export default UseEffect0;
