@@ -1,0 +1,20 @@
+.callback-input {
+	margin: 30px auto;
+	width: 300px;
+	height: 80px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.callback-btn {
+	cursor: pointer;
+	margin: 20px auto;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+}
+
+.item {
+	font-size: 50px;
+	font-weight: bolder;
+}

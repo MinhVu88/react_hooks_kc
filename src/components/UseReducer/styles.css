@@ -1,0 +1,23 @@
+.reducer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.reducer-input {
+	width: 500px;
+	height: 50px;
+	margin: 30px 10px auto;
+	font-size: 30px;
+	text-align: center;
+}
+
+.reducer-btn {
+	width: 130px;
+	height: 30px;
+	margin: 5px;
+	cursor: pointer;
+}
